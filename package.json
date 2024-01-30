@@ -1,0 +1,25 @@
+{
+  "name": "dca-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "ccxt": "^4.1.10",
+    "dotenv": "^16.3.1",
+    "mongoose": "^7.6.1",
+    "node-binance-api": "^0.13.1",
+    "node-cron": "^3.0.2",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
